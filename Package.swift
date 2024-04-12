@@ -12,7 +12,7 @@ let package = Package(
             targets: ["CognitiveServicesSpeechSPM"]),
     ],
     targets: [
-        .target(name: "MicrosoftCognitiveServicesSpeech", dependencies: [
+        .target(name: "CognitiveServicesSpeechSPM", dependencies: [
             "MicrosoftCognitiveServicesSpeech",
         ]),
         .binaryTarget(
